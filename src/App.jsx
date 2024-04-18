@@ -5,11 +5,6 @@ import { Sidebar } from './components/Sidebar'
 import { Post } from './components/Post'
 
 
-//Post informations
-// -> author: {avatar_url: "", name: "", role: ""}
-// -> publishedAt: Date
-// -> content: String
-
 const posts = [
   {
       id: 1,
@@ -20,24 +15,24 @@ const posts = [
       },
       content: [
           {type: 'paragraph', content: 'Fala galeraa 👋'},
-          {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifolio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
-          {type: 'link', content: 'jane.design/doctorcare'},
+          {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifolio. É um projeto que fiz no NLW Expert, evento da Rocketseat. O nome do projeto é HTMLQuiz 🚀'},
+          {type: 'link', content: 'https://github.com/alicelopess/nlw-expert-quiz'},
       ],
-      publishedAt: new Date('2022-05-03 20:00:00')
+      publishedAt: new Date('2024-04-18 19:32:00')
   },
   {
     id: 2,
     author: {
         avatarUrl: 'https://github.com/pedroflp.png',
         name: 'Pedro Felipe',
-        role: 'Web Developer'
+        role: 'Mobile Developer'
     },
     content: [
-        {type: 'paragraph', content: 'Fala galeraa 👋'},
-        {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifolio. É um projeto que fiz no NLW Return, evento da Rocketseat. O nome do projeto é DoctorCare 🚀'},
-        {type: 'link', content: 'jane.design/doctorcare'},
+        {type: 'paragraph', content: 'Fala pessoal 👋'},
+        {type: 'paragraph', content: 'Acabei de subir mais um projeto no meu portifolio. É um projeto pessoal de rastreio de encomendas 🚀'},
+        {type: 'link', content: 'https://github.com/pedroflp/trackit'},
     ],
-    publishedAt: new Date('2022-05-03 20:00:00')
+    publishedAt: new Date('2021-07-24 17:30:00')
 }
 ]
 
